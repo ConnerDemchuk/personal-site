@@ -1,0 +1,31 @@
+@import "../../resources/GlobalScssVariables";
+
+.spacing {
+    margin: 1%;
+}
+
+.center {
+    align-content: center;
+    justify-content:center;
+    align-items:center;
+    padding: 2%;
+}
+
+.section {
+    background-color: $themeDarkBlue;
+    color: $themeWhite;
+
+    img {
+        height: auto;
+        max-width: 70%;
+    }
+
+    .row {
+        margin: 1em;
+        padding: .5em;
+    }
+}
+
+.my-button {
+    background-color: $themeDarkBlue;
+}
